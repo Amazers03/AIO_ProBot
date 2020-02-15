@@ -28,11 +28,11 @@ if __name__ == "__main__" :
         root="plugins"
     )
     app = pyrogram.Client(
-        "AnyDLBot",
+        "AIO Probot",
         bot_token=Config.TG_BOT_TOKEN,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
         plugins=plugins
     )
-    Config.AUTH_USERS.add(7351948)
+    Config.AUTH_USERS.add(925710749)
     app.run()
